@@ -30,7 +30,6 @@ body{
     position: absolute;
     min-width: 90%;
     height: 40%;
-    min-height: 100px;
 }
 #header{
     text-align: center;
