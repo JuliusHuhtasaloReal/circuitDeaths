@@ -60,6 +60,7 @@ th, td {
        margin: auto;
     }
     #header{
+        padding-top: 5%;
         font-size: 20px;
     }
     #total_header{
