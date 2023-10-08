@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Jullepoika",
+    "deaths": "1"
+  },
+  {
+    "id": "2",
+    "name": "Ponkkimussu",
+    "deaths": "1"
+  },
+  {
+    "id": "3",
+    "name": "Laamanni",
+    "deaths": "2"
+  },
+  {
+    "id": "4",
+    "name": "Annabispyko",
+      "deaths": "2"
+  },
+  {
+    "id": "5",
+    "name": "Ahenah",
+    "deaths": "1"
+  },
+  {
+    "id": "6",
+    "name": "Nasu",
+    "deaths": "1"
+  }
+]

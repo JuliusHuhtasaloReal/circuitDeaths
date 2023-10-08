@@ -35,30 +35,40 @@ body{
 #total_table{
     max-width: fit-content;
     margin: auto;
+    margin-top: 100px;
 }
-#total_header{
-    margin: auto;
-    text-align: center;
-    color: #efa35c;
+.table{
+    margin-bottom: 5px;
 }
-.royal-table{
-    background-color: #1b3764;
-    min-width: 300px;
-    border-radius: 20%;
+#table{
+    border-radius: 5%;
     overflow: hidden;
+    filter: drop-shadow(0 0 10px #f9f8eb);
 }
 th, td {
-    border-bottom: 1px solid #efa35c;
     padding: 10px;
     text-align: center;
     color:#efa35c;
     font-size: 18px;
 }
+#input_box{
+   width: 145px;
+   margin: auto;
+   filter: drop-shadow(0 0 10px #f9f8eb);
+}
+.user_input{
+    width: 175px;
+    margin: auto;
+}
+#death_input{
+    width: 75px;
+}
+#name_input{
+
+}
+
 
 @media screen and (max-width:765px){
-    #total_table{
-       margin: auto;
-    }
     #header{
         padding-top: 5%;
         font-size: 20px;

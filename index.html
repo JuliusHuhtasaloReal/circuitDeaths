@@ -4,48 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
     <title>stop dying</title>
 </head>
 <body>
+    <!---
+        testings
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+     
+         <label for="email">deaths</label>
+         <input type="email" name="Deaths" id="email" />
+     
+         <button type="submit">Submit</button>
+       </form>
+    -->
     <div id="header_box">
         <img src="images/circuit_royal.jpg" alt="picture of circuit royal map, attacker spawn" id="circuit_img">
         <div id="joo">
             <h1 id="header">Circuit Royal ovi holdin kuolemat!</h1>
             <div id="total_table">
-                <h2 id="total_header">Totaali</h2>
-                <table class="royal-table">
-                    <tr>
-                        <th>Nimi</th>
-                        <th>Kuolemat</th>
-                    </tr>
-                    <tr>
-                        <td data-th="Movie Title">JullePoika</td>
-                        <td data-th="Genre">1</td>
-                    </tr>
-                    <tr>
-                        <td data-th="Movie Title">Ponkkimussu</td>
-                        <td data-th="Genre">1</td>
-                    </tr>
-                    <tr>
-                        <td data-th="Movie Title">Laamanni</td>
-                        <td data-th="Genre">2</td>
-                    </tr>
-                    <tr>
-                        <td data-th="Movie Title">Annabispsyko</td>
-                        <td data-th="Genre">2</td>
-                    </tr>
-                    <tr>
-                        <td data-th="Movie Title">Ahenah</td>
-                        <td data-th="Genre">1</td>
-                    </tr>
-                    <tr>
-                        <td data-th="Movie Title">Nasu</td>
-                        <td data-th="Genre">1</td>
-                    </tr>
+                <table class="table table-striped table-dark table-bordered" id="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nimi</th>
+                            <th scope="col">Kuolemat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dataTable"></tbody>
                 </table>  
             </div>
+            <!--<button id="input_box">Add new troller (Work in progress)</button>-->
         </div>
     </div>
+    
 </body>
+<script src="script.js"></script>
 </html>
