@@ -28,5 +28,10 @@
     "id": "6",
     "name": "Nasu",
     "deaths": "1"
+  },
+  {
+    "id": "7",
+    "name": "Sauna (WorldCup)",
+    "deaths": "1"
   }
 ]
