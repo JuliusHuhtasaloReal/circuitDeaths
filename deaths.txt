@@ -33,5 +33,15 @@
     "id": "7",
     "name": "Sauna (WorldCup)",
     "deaths": "1"
+  },
+  {
+    "id": "8",
+    "name": "Masaa (WorldCup)",
+    "deaths": "1"
+  },
+  {
+    "id": "9",
+    "name": "Lip (WorldCupKorea)",
+    "deaths": "1"
   }
 ]
