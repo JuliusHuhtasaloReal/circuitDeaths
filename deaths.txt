@@ -41,6 +41,11 @@
   },
   {
     "id": "9",
+    "name": "Mickji (WorldCup)",
+    "deaths": "1"
+  },
+    {
+    "id": "10",
     "name": "Lip (WorldCupKorea)",
     "deaths": "1"
   }
