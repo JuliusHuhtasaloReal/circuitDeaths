@@ -29,23 +29,28 @@
     "name": "Nasu",
     "deaths": "1"
   },
-  {
+      {
     "id": "7",
-    "name": "Sauna (WorldCup)",
+    "name": "Ta1nou",
     "deaths": "1"
   },
   {
     "id": "8",
-    "name": "Masaa (WorldCup)",
+    "name": "Sauna (WorldCup)",
     "deaths": "1"
   },
   {
     "id": "9",
+    "name": "Masaa (WorldCup)",
+    "deaths": "1"
+  },
+  {
+    "id": "10",
     "name": "Mickji (WorldCup)",
     "deaths": "1"
   },
     {
-    "id": "10",
+    "id": "11",
     "name": "Lip (WorldCupKorea)",
     "deaths": "1"
   }
