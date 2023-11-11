@@ -36,21 +36,26 @@
   },
   {
     "id": "8",
-    "name": "Sauna (WorldCup)",
+    "name": "Jespe",
     "deaths": "1"
   },
   {
     "id": "9",
-    "name": "Masaa (WorldCup)",
+    "name": "Sauna (WorldCup)",
     "deaths": "1"
   },
   {
     "id": "10",
+    "name": "Masaa (WorldCup)",
+    "deaths": "1"
+  },
+  {
+    "id": "11",
     "name": "Mickji (WorldCup)",
     "deaths": "1"
   },
     {
-    "id": "11",
+    "id": "12",
     "name": "Lip (WorldCupKorea)",
     "deaths": "1"
   }
