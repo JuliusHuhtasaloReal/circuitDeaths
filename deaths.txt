@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "Jullepoika",
-    "deaths": "1"
+    "deaths": "2"
   },
   {
     "id": "2",
