@@ -17,7 +17,7 @@
   {
     "id": "4",
     "name": "Annabispyko",
-      "deaths": "2"
+      "deaths": "3"
   },
   {
     "id": "5",
