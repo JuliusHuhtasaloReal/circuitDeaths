@@ -1,5 +1,6 @@
 let table = document.getElementById("dataTable");
 const showData = (dataa) => {
+    console.log("in showdata");
     console.log(dataa);
     dataa.map(item => {
         const row = document.createElement("tr");
@@ -21,7 +22,7 @@ const createName = (item, row) => {
 }
 
 const fetchDeathsFile = async() =>{
-    let storeData = [];
+    let sortedData = [];
     /*
     testings
     function handleSubmit(event) {
@@ -40,12 +41,14 @@ const fetchDeathsFile = async() =>{
     try {
         const response = await fetch(`deaths.txt`);
         const data = await response.json();
-        storeData.push(data);
-
-        showData(data);
+        sortedData = sortDataFunc(data);
+        showData(sortedData);
     } catch (error) {
         console.log(error);
     }
+}
+const sortDataFunc = (unsortedData) =>{
+    return unsortedData.sort(({deaths : as }, {deaths : bs}) => bs - as);
 }
 
 fetchDeathsFile();
