@@ -23,21 +23,6 @@ const createName = (item, row) => {
 
 const fetchDeathsFile = async() =>{
     let sortedData = [];
-    /*
-    testings
-    function handleSubmit(event) {
-        event.preventDefault();
-    
-        const data = new FormData(event.target);
-    
-       const value = Object.fromEntries(data.entries());
-    
-        console.log({value});
-      }
-    
-      const form = document.querySelector('form');
-      form.addEventListener('submit', handleSubmit);
-      */
     try {
         const response = await fetch(`deaths.txt`);
         const data = await response.json();
