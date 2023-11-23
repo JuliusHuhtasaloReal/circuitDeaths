@@ -16,8 +16,8 @@
   },
   {
     "id": "4",
-    "name": "Annabispyko",
-      "deaths": "3"
+    "name": "Anna",
+      "deaths": "4"
   },
   {
     "id": "5",
