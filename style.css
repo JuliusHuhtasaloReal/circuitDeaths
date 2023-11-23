@@ -62,13 +62,14 @@ body{
     text-align: center;
     padding-top: 1.4rem;
     color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 10px rgb(212, 225, 255));
 }
 #onnistumis_txt{
     padding-top: 20px;
     font-size: 1.3rem;
     text-align: center;
     color: #e9e9e9;
-    filter: drop-shadow(0 0 10px rgb(17, 31, 63));
+    filter: drop-shadow(0 10px 10px rgb(205, 220, 255));
 }
 #total_table{
     margin: auto;
