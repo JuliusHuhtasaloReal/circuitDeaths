@@ -27,7 +27,7 @@
   {
     "id": "6",
     "name": "Nasu",
-    "deaths": "1"
+    "deaths": "2"
   },
       {
     "id": "7",
