@@ -32,7 +32,7 @@
       {
     "id": "7",
     "name": "Ta1nou",
-    "deaths": "2"
+    "deaths": "3"
   },
   {
     "id": "8",
